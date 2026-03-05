@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — Afghan Translator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black: #0e0c0a;
+      --ink: #1a1612;
+      --parchment: #f5f0e8;
+      --cream: #faf7f2;
+      --gold: #c8922a;
+      --gold-light: #e8b84b;
+      --rust: #8b3a1e;
+      --border: #d4c9b0;
+      --muted: #7a6e5f;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--cream);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 300;
+      line-height: 1.85;
+      font-size: 16px;
+    }
+
+
+
+    /* ── Main layout ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 5rem;
+    }
+
+    .effective-date {
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .intro-block {
+      background: var(--parchment);
+      border-left: 3px solid var(--gold);
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 3rem;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .intro-block p {
+      font-size: 1.05rem;
+      color: var(--ink);
+      line-height: 1.75;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 3rem;
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .section-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.35rem;
+      display: block;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 1rem;
+      line-height: 1.25;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+      margin-top: 0.5rem;
+    }
+
+    p { margin-bottom: 1rem; color: #2a2420; }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: #2a2420;
+    }
+
+    li { margin-bottom: 0.4rem; line-height: 1.7; }
+
+    strong { font-weight: 600; color: var(--ink); }
+
+    a { color: var(--rust); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--gold); }
+
+    /* Highlight box */
+    .callout {
+      background: #fff8ed;
+      border: 1px solid #e8c96a;
+      border-radius: 6px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+    }
+
+    .callout strong { color: var(--rust); }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--black);
+      color: rgba(245,240,232,0.5);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+
+    footer .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    footer a { color: rgba(245,240,232,0.6); }
+
+    /* ── Animations ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      main { padding: 2.5rem 1.25rem 4rem; }
+      h1 { font-size: 1.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Content -->
+  <main>
+    <p class="effective-date">Last updated: March 5, 2026 &nbsp;·&nbsp; Version 3.1</p>
+
+    <div class="intro-block">
+      <p>Welcome to <strong>Afghan Translator</strong>. These Terms of Use govern your access to and use of our translation services, including Pashto, Dari, and other Afghan language tools. By using our service, you agree to these terms in full. Please read them carefully.</p>
+    </div>
+
+    <!-- 1. Acceptance -->
+    <section id="acceptance">
+      <span class="section-number">01</span>
+      <h2>Acceptance of Terms</h2>
+      <p>By accessing, downloading, or using Afghan Translator (the "Service"), you confirm that you have read, understood, and agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree, you must discontinue use of the Service immediately.</p>
+      <p>Your continued use of the Service following any updates to these Terms constitutes acceptance of those changes.</p>
+    </section>
+
+    <!-- 2. Service Description -->
+    <section id="service">
+      <span class="section-number">02</span>
+      <h2>Description of the Service</h2>
+      <p>Afghan Translator provides AI-assisted translation between English and Afghan languages, including <strong>Pashto (پښتو)</strong> and <strong>Dari (دری)</strong>, as well as related linguistic tools such as transliteration, vocabulary assistance, and cultural context notes.</p>
+      <p>The Service is provided for personal, educational, humanitarian, and professional use. We reserve the right to modify, suspend, or discontinue any part of the Service at any time without notice.</p>
+    </section>
+
+    <!-- 3. Eligibility -->
+    <section id="eligibility">
+      <span class="section-number">03</span>
+      <h2>Eligibility</h2>
+      <p>You must be at least <strong>13 years of age</strong> to use the Service. If you are under 18, you represent that you have obtained parental or guardian consent. By using the Service, you represent and warrant that you meet all eligibility requirements.</p>
+    </section>
+
+    <!-- 4. Acceptable Use -->
+    <section id="conduct">
+      <span class="section-number">04</span>
+      <h2>Acceptable Use &amp; Prohibited Conduct</h2>
+      <p>You agree to use the Service only for lawful purposes and in accordance with these Terms. You may <strong>not</strong> use the Service to:</p>
+      <ul>
+        <li>Translate, produce, or distribute content that is hateful, defamatory, threatening, or discriminatory toward any ethnic, religious, or linguistic group</li>
+        <li>Facilitate illegal activities, fraud, harassment, or any form of exploitation</li>
+        <li>Attempt to reverse-engineer, scrape, or systematically extract data from the Service</li>
+        <li>Circumvent any access controls, security features, or usage limits</li>
+        <li>Misrepresent translated content as officially certified or verified without independent verification</li>
+        <li>Use the Service in any manner that could impair its availability or performance for other users</li>
+      </ul>
+      <div class="callout">
+        <strong>Important:</strong> Translation of legal, medical, immigration, or other high-stakes documents using this Service does not constitute certified translation. Always engage a qualified professional translator for official submissions.
+      </div>
+    </section>
+
+    <!-- 5. Accuracy & Limitations -->
+    <section id="accuracy">
+      <span class="section-number">05</span>
+      <h2>Translation Accuracy &amp; Limitations</h2>
+      <p>Afghan Translator uses AI and machine learning to provide translations. While we strive for high quality, <strong>no AI translation is infallible</strong>. Afghan languages contain significant regional dialect variation, nuanced script conventions, and culturally embedded meaning that may not always be captured accurately.</p>
+      <p>You acknowledge and accept that:</p>
+      <ul>
+        <li>Translations may contain errors, omissions, or culturally imprecise renderings</li>
+        <li>The Service is not a substitute for human professional translation for critical uses</li>
+        <li>You are responsible for verifying the accuracy of any translation before acting on it</li>
+      </ul>
+    </section>
+
+    <!-- 6. Privacy -->
+    <section id="privacy">
+      <span class="section-number">06</span>
+      <h2>Privacy &amp; Data</h2>
+      <p>Your use of the Service is also governed by our <a href="/privacy">Privacy Policy</a>, which is incorporated into these Terms by reference. By using the Service, you consent to the collection and use of your information as described therein.</p>
+      <p>Do not submit personally identifiable information, medical records, legal documents, or sensitive personal data unless you have reviewed and accepted the data handling practices described in the Privacy Policy.</p>
+    </section>
+
+    <!-- 7. Intellectual Property -->
+    <section id="ip">
+      <span class="section-number">07</span>
+      <h2>Intellectual Property</h2>
+      <p>The Afghan Translator name, logo, interface design, underlying models, and all related content are the exclusive property of Afghan Translator and its licensors, protected by applicable copyright, trademark, and intellectual property laws.</p>
+      <p>You retain ownership of content you submit for translation. By submitting content, you grant Afghan Translator a limited, non-exclusive license to process that content solely for the purpose of providing the Service.</p>
+      <p>Translated output generated by the Service may be used by you for personal or commercial purposes, subject to these Terms.</p>
+    </section>
+
+    <!-- 8. Disclaimer -->
+    <section id="disclaimer">
+      <span class="section-number">08</span>
+      <h2>Disclaimer of Warranties</h2>
+      <p>THE SERVICE IS PROVIDED <strong>"AS IS"</strong> AND <strong>"AS AVAILABLE"</strong> WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.</p>
+      <p>We do not warrant that the Service will be uninterrupted, error-free, or free of viruses or other harmful components. We make no warranty regarding the accuracy, reliability, or completeness of any translation output.</p>
+    </section>
+
+    <!-- 9. Limitation of Liability -->
+    <section id="limitation">
+      <span class="section-number">09</span>
+      <h2>Limitation of Liability</h2>
+      <p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, AFGHAN TRANSLATOR AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AND LICENSORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICE.</p>
+      <p>In no event shall our total liability to you exceed the greater of (a) the amount you paid for the Service in the twelve months preceding the claim or (b) fifty US dollars ($50).</p>
+    </section>
+
+    <!-- 10. Termination -->
+    <section id="termination">
+      <span class="section-number">10</span>
+      <h2>Termination</h2>
+      <p>We reserve the right to suspend or terminate your access to the Service at any time, with or without notice, for conduct that we believe violates these Terms or is harmful to other users, the Service, or third parties.</p>
+      <p>Upon termination, all licenses granted to you under these Terms will immediately cease. Provisions that by their nature should survive termination (including Sections 7–9) shall survive.</p>
+    </section>
+
+    <!-- 11. Changes -->
+    <section id="changes">
+      <span class="section-number">11</span>
+      <h2>Changes to These Terms</h2>
+      <p>We may revise these Terms from time to time. When we do, we will update the "Last updated" date at the top of this page. For material changes, we will provide notice through the app or by email where feasible. Your continued use of the Service after changes become effective constitutes your acceptance of the revised Terms.</p>
+    </section>
+
+    <!-- 12. Contact -->
+    <section id="contact">
+      <span class="section-number">12</span>
+      <h2>Contact Us</h2>
+      <p>If you have questions about these Terms, please reach out:</p>
+      <ul>
+        <li><strong>Website:</strong> <a href="https://afghantranslatorapp.com">afghantranslatorapp.com</a></li>
+      </ul>
+      <p>We are committed to supporting Afghan communities, diaspora users, humanitarian workers, and anyone working to bridge language barriers with care and respect.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-logo">Afghan Translator</div>
+    <p>© 2026 Afghan Translator. All rights reserved.</p>
+    <p style="margin-top:0.5rem;">
+      <a href="/privacy">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="/terms">Terms of Use</a> &nbsp;·&nbsp;
+      <a href="/contact">Contact</a>
+    </p>
+  </footer>
+
+  <script>
+    // Intersection observer for section reveal
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
